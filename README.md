@@ -15,7 +15,6 @@ To do so, we will start by analyzing the available data to have an overview of t
 In order to get data on NYC restaurants, we will use two main data sources:
 
 * **DOHMH New York City Restaurant Inspection Results:** a dataset containing all sanitary inspection results for NYC restaurants along with the restaurants features (e.g. cuisine type, longitude, latitude, phone number)
-<br>
 
 * **Yelp API:** it will enable us to retrieve a satisfaction score for a restaurant as well as some other characteristics (e.g., reviews, price category...)
 
@@ -545,7 +544,6 @@ To improve the resulting topics, we could have added more stopwords but the main
 Let's briefly summarize our main findings:
 
 * **Restaurants aren't uniformly distributed** across New York City: Manhattan hosts most restaurants, followed by Brooklyn, the Queens, Bronx and Staten Island.
-<br>
 
 * When qualifying a restaurant as successful when its **Yelp rating is >= 4.0**, **Brooklyn and Manhattan** are the boroughs with the **highest proportion of successful restaurants (50%)**, followed by the Queens (43.5%), Staten Island (37.5%) and the Bronx (33.5%).
 
